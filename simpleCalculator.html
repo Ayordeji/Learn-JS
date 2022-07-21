@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>People Counter</title>
-    <link rel="stylesheet" href="/css/simpleCalculator.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/simpleCalculator.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
@@ -44,27 +44,30 @@
     </nav>
 
 
-    <div class="container my-5">
+    <div class="container my-5 d-flex flex-column justify-content-center align-items-center">
+   
+
         
-       
-
-
-
-        <span>Given Numbers:</span>
-        <span id="num1-el"></span>
-        <span id="num2-el"></span>
-        <br>
-        <button onclick="add()">Add</button>
-        <button onclick="subtract()">Subtract</button>
-        <button onclick="multiply()">Multiply</button>
-        <button onclick="divide()">Divide</button>
+        <div>
+            <b>Your Inputs:</b>
+            <span id="num1-el"></span>
+            <span>and</span>
+            <span id="num2-el"></span>
+        </div>
         
-        <br>
-        <span id="sum-el">Sum: </span>
-        <span id="diff-el">Difference: </span>
-        <span id="mul-el">Multipication: </span>
-        <span id="div-el">Division: </span>
-
+        <div class="my-4">
+            <button onclick="add()">Add</button>
+            <button onclick="subtract()">Subtract</button>
+            <button onclick="multiply()">Multiply</button>
+            <button onclick="divide()">Divide</button>
+        </div>
+        
+        
+            <span id="sum-el">Sum: </span>
+            <span id="diff-el">Difference: </span>
+            <span id="mul-el">Multipication: </span>
+            <span id="div-el">Division: </span>
+        
     </div>
 
     <script src="/js/simpleCalculator.js"></script>

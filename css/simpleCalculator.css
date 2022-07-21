@@ -1,21 +1,23 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     text-align: center;
     background-image: url('../img/whitebg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 span {
-    border-bottom: 2px solid black;
     padding: 4px;
 }
 
 button {
-    margin: 20px 0;
-    background: rgb(182, 16, 16);
+    background: rgb(30, 182, 16);
     color: rgb(0, 0, 0);
-    border: 1px solid black;
     font-weight: bold;
     cursor: pointer;
     padding: 5px 8px;
+}
+
+button:hover{
+    background: rgb(62, 82, 180);
 }

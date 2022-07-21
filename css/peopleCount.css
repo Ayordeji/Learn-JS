@@ -3,9 +3,8 @@ body {
     background-size: cover;
     min-height: 100vh;
     background-repeat: no-repeat;
-    font-weight: bold;
     text-align: center;
-    color: white;
+
 }
 
 #btn {

@@ -1,21 +1,3 @@
-// Increment Lap
-
-/* let lapsCompleted = 0;
-
-function increment() {
-    lapsCompleted += 1;
-
-    console.log(lapsCompleted);
-
-}
-
-increment();
-increment();
-increment(); */
-
-
-
-
 /* Increment Counter Button */
 
 let count = 0;
