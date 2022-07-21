@@ -98,9 +98,10 @@ If you have any feedback, please reach out to us at ayoeluyemi2002@gmail.com
 
 ## Features
 
-- Light/dark mode toggle
+- Calendar System
 - Booking System
 - Live previews
+- Live Charts
 - Fullscreen mode
 - Cross platform
 
@@ -111,7 +112,7 @@ If you have any feedback, please reach out to us at ayoeluyemi2002@gmail.com
 - [@Ayordeji](https://github.com/Ayordeji)
 - [@G'nonsticx](https://github.com/PaulNonz)
 - [@Jaybee](https://github.com/Jaybee02)
-- [@Danny](https://github.com/Ayordeji)
+- [@Danny](https://github.com/danishaft)
 - [@DivineGift](https://github.com/Blaviq)
 - [@Dami](https://github.com/LDrex1)
 - [@Martha](https://github.com/alaomartha)
