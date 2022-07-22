@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>People Counter</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="css/blackjack.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="css/peopleCount.css">
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="bg-success">
 
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
+     <!-- Nav Bar -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
         <div class="container text-light">
 
             <a class="navbar-brand text-light" href="index.html">Ayordeji</a>
@@ -24,7 +23,8 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">              
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                              
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     My Projects
@@ -40,17 +40,26 @@
             </div>
         </div>
     </nav>
+    
+    <!-- Main Content -->
+    <section class="py-5">
+
+        
+            <div class="text-center">
+                <h1 class="fw-bold fs-1">Blackjack</h1>
+        
+                <p class="fs-5">Want to play a round?</p>
+        
+                <p class="fs-5">Cards:</p>
+        
+                <p class="fs-5">Sums:</p>
+            </div>
+        
 
 
-    <div class="container my-5">
-        <h1>People Around:</h1>
-        <h2 id="initialCounter">0</h2>
-        <button class="increment-btn" id="btn" onclick="incrementCounter()">Increment</button>
-        <button class="save-btn" id="btn" onclick="save()">Save</button>
-        <p id="saveCounter">Previous Entries: </p>
-    </div>
+    </section>
 
-    <script src="js/peopleCount.js"></script>
+    <script src="js/blackjack.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/swiper-bundle.min.js"></script>

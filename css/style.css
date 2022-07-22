@@ -8,7 +8,7 @@
 }
 /* text css above hero image*/
 .hero_title {
-    font-size: 4.0rem;
+    font-size: clamp(2rem, 6vw, 8rem); 
 }
 .hero_desc {
     font-size: 1.7rem;
@@ -22,3 +22,8 @@
     color: white;
 }
 
+
+.navbar-nav .dropdown-menu {
+    position: absolute !important;
+
+}
