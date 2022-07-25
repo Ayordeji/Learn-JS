@@ -2,6 +2,5 @@ body {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    color: goldenrod;
-}
+.myBColor { background-color: #FADA14 !important;}
+.myColor { color: #FADA14 !important;}
