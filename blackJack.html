@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-success">
+<body class="bg-success text-light">
 
      <!-- Nav Bar -->
      <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
@@ -44,17 +44,23 @@
     <!-- Main Content -->
     <section class="py-5">
 
+        <p id="greeting-el"></p>
+
         
             <div class="text-center">
                 <h1 class="myColor fw-bold fs-1">Blackjack</h1>
         
                 <p id="message-el" class="fs-5">Want to play a round?</p>
         
-                <p class="fs-5">Cards:</p>
+                <p class="card_el fs-5">Cards:</p>
         
-                <p class="fs-5">Sums:</p>
+                <p class="sum_el fs-5">Sums:</p>
 
-                <button class="myBColor fs-5 p-3 w-50 " onclick="startGame()">START GAME</button>
+                <span class="d-flex flex-column align-items-center justify-content-center">
+                    <button class="myBColor fs-5 p-3 w-auto " onclick="startGame()">START GAME</button>
+
+                    <button class="myBColor fs-5 p-3 mt-3 w-auto " onclick="newCard()">NEW GAME</button>
+                </span>
             </div>
         
 
